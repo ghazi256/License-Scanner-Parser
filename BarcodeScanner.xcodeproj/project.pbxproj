@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		323462571E5191BC00299F7F /* Regex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323462561E5191BC00299F7F /* Regex.swift */; };
 		3234625B1E51CA6F00299F7F /* LicenseParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 3234625A1E51CA6F00299F7F /* LicenseParser.m */; };
+		32B0E96D1E530E290010AE40 /* CameraFocusSquare.m in Sources */ = {isa = PBXBuildFile; fileRef = 32B0E96C1E530E290010AE40 /* CameraFocusSquare.m */; };
+		32B0E9701E530E630010AE40 /* UIColor+HexRepresentation.m in Sources */ = {isa = PBXBuildFile; fileRef = 32B0E96F1E530E630010AE40 /* UIColor+HexRepresentation.m */; };
 		863A06931AFE242C0063EAF3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 863A06921AFE242C0063EAF3 /* main.m */; };
 		863A06961AFE242C0063EAF3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 863A06951AFE242C0063EAF3 /* AppDelegate.m */; };
 		863A06991AFE242C0063EAF3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 863A06981AFE242C0063EAF3 /* ViewController.m */; };
@@ -23,6 +25,10 @@
 		323462561E5191BC00299F7F /* Regex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Regex.swift; path = LicenseParser/Regex.swift; sourceTree = "<group>"; };
 		323462591E51CA6F00299F7F /* LicenseParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LicenseParser.h; path = LicenseParser/LicenseParser.h; sourceTree = "<group>"; };
 		3234625A1E51CA6F00299F7F /* LicenseParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LicenseParser.m; path = LicenseParser/LicenseParser.m; sourceTree = "<group>"; };
+		32B0E96B1E530E290010AE40 /* CameraFocusSquare.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraFocusSquare.h; sourceTree = "<group>"; };
+		32B0E96C1E530E290010AE40 /* CameraFocusSquare.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraFocusSquare.m; sourceTree = "<group>"; };
+		32B0E96E1E530E630010AE40 /* UIColor+HexRepresentation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+HexRepresentation.h"; sourceTree = "<group>"; };
+		32B0E96F1E530E630010AE40 /* UIColor+HexRepresentation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HexRepresentation.m"; sourceTree = "<group>"; };
 		863A068D1AFE242C0063EAF3 /* BarcodeScanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BarcodeScanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		863A06911AFE242C0063EAF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		863A06921AFE242C0063EAF3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -91,6 +97,10 @@
 				863A06981AFE242C0063EAF3 /* ViewController.m */,
 				863A06B61AFE26B70063EAF3 /* ScanController.h */,
 				863A06B71AFE26B70063EAF3 /* ScanController.m */,
+				32B0E96B1E530E290010AE40 /* CameraFocusSquare.h */,
+				32B0E96C1E530E290010AE40 /* CameraFocusSquare.m */,
+				32B0E96E1E530E630010AE40 /* UIColor+HexRepresentation.h */,
+				32B0E96F1E530E630010AE40 /* UIColor+HexRepresentation.m */,
 				323462581E51CA5300299F7F /* License Parser */,
 				3234624C1E518AF600299F7F /* LicenseParser */,
 				863A069A1AFE242C0063EAF3 /* Main.storyboard */,
@@ -184,10 +194,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				863A06B81AFE26B70063EAF3 /* ScanController.m in Sources */,
+				32B0E96D1E530E290010AE40 /* CameraFocusSquare.m in Sources */,
 				323462571E5191BC00299F7F /* Regex.swift in Sources */,
 				863A06991AFE242C0063EAF3 /* ViewController.m in Sources */,
 				863A06961AFE242C0063EAF3 /* AppDelegate.m in Sources */,
 				3234625B1E51CA6F00299F7F /* LicenseParser.m in Sources */,
+				32B0E9701E530E630010AE40 /* UIColor+HexRepresentation.m in Sources */,
 				863A06931AFE242C0063EAF3 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
